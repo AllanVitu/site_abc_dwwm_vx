@@ -8,3 +8,10 @@ body{
 strong{
     border: 2px solid rgb(17, 160, 196);
 }
+img{
+    width: 250px;
+    height: 250px;
+}
+body{
+    font-family: "Century Gothic", Verdana, sans-serif;
+}
