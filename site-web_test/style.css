@@ -9,8 +9,8 @@ strong{
     border: 2px solid rgb(190, 189, 191);
 }
 img{
-    width: 350px;
-    height: 150px;
+    width: 480px;
+    height: 261px;
 }
 body{
     font-family: "Century Gothic", Verdana, sans-serif;
@@ -19,7 +19,7 @@ body{
     height: 16px;
     width: 360px;
     padding: 15px;
-    background-color: rgb(39, 84, 54);
+    background-color: rgb(71, 37, 73);
 }
 mark{
     color: white;
