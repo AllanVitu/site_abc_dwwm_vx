@@ -6,12 +6,34 @@ body{
     font-weight: bold;
 }
 strong{
-    border: 2px solid rgb(17, 160, 196);
+    border: 2px solid rgb(190, 189, 191);
 }
 img{
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 150px;
 }
 body{
     font-family: "Century Gothic", Verdana, sans-serif;
+}
+.p1{
+    height: 16px;
+    width: 360px;
+    padding: 15px;
+    background-color: rgb(39, 84, 54);
+}
+mark{
+    color: white;
+    background-color: rgb(126, 42, 94);
+}
+div{
+    width: 400px;
+    height: 200px;
+    margin: 0px auto;
+}
+.div2{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 70px;
+    bottom: 5px;
 }
