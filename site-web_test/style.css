@@ -1,4 +1,28 @@
 body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    background-color: rgb(115, 124, 124);
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #FFFF;
+}
+body{
     background-color: rgb(90, 90, 90);
     font-family: "Century Gothic", Verdana, sans-serif;
     color: rgb(224, 210, 210);
@@ -11,7 +35,6 @@ img{
     max-width: 100%;
     height: auto;
 }
-
 .p1{
     height: 16px;
     width: 360px;
@@ -33,24 +56,6 @@ div{
     position: absolute;
     left: 70px;
     bottom: 5px;
-}
-nav{
-    width: 100%;
-    background-color: rgb(195, 162, 226);
-}
-nav ul{
-    margin: 0px;
-    padding: 0px;
-}
-nav li{
-    list-style-type: none;
-    float: left;
-}
-nav a{
-    display: inline-block;
-    text-decoration: none;
-    padding: 20px 30px;
-    color: #f7ebeb;
 }
 .anglais-html{
     background-color: rgb(28, 51, 151);
