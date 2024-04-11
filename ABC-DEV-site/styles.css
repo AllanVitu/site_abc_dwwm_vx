@@ -85,3 +85,8 @@ div{
     border-top: 5px solid #15cf47;
     background-color: RGBa(228, 77, 38, 0.15);
 }
+.tp-html{
+    width: 400px;
+    height: 200px;
+    margin: 0px auto;
+}
