@@ -5,7 +5,7 @@ body{
 }
 nav{
     width: 100%;
-    background-color: rgb(115, 124, 124);
+    background-color: #9c979a;
 }
 nav ul{
     margin: 0px;
@@ -23,13 +23,13 @@ nav a{
     color: #FFFF;
 }
 body{
-    background-color: rgb(90, 90, 90);
+    background-color: rgb(246, 209, 209);
     font-family: "Century Gothic", Verdana, sans-serif;
-    color: rgb(224, 210, 210);
+    color: rgb(39, 35, 35);
     font-weight: bold;
 }
 strong{
-    border: 2px solid rgb(190, 189, 191);
+    border: 2px solid rgb(234, 231, 236);
 }
 img{
     max-width: 100%;
@@ -57,31 +57,31 @@ div{
     left: 70px;
     bottom: 5px;
 }
-.anglais-html{
-    background-color: rgb(75, 25, 96);
-    color: rgb(224, 210, 210);
+.anglais-html:hover{
+    border-top: 5px solid #293133;
+    background-color: RGBa(228, 77, 38, 0.15);
 }
-.menu-html{
-    background-color: rgb(131, 27, 27);
-    color: rgb(224, 210, 210);
+.menu-html:hover{
+    border-top: 5px solid #370028;
+    background-color: RGBa(228, 77, 38, 0.15);
 }
-.github-html{
-    background-color: rgb(143, 33, 84);
-    color: rgb(224, 210, 210);
+.github-html:hover{
+    border-top: 5px solid #622725;
+    background-color: RGBa(228, 77, 38, 0.15);
 }
-.com-html{
-    background-color: rgb(53, 23, 129);
-    color: rgb(224, 210, 210);
+.com-html:hover{
+    border-top: 5px solid #88421D;
+    background-color: RGBa(228, 77, 38, 0.15);
 }
-.intro-html{
-    background-color: rgb(38, 125, 190);
-    color: rgb(224, 210, 210);
+.intro-html:hover{
+    border-top: 5px solid #048B9A;
+    background-color: RGBa(228, 77, 38, 0.15);
 }
-.video-html{
-    background-color: rgb(107, 165, 216);
-    color: rgb(224, 210, 210);
+.video-html:hover{
+    border-top: 5px solid #DEB887;
+    background-color: RGBa(228, 77, 38, 0.15);
 }
-.fiche-html{
-    background-color: rgb(23, 129, 104);
-    color: rgb(224, 210, 210);
+.fiche-html:hover{
+    border-top: 5px solid #785E2F;
+    background-color: RGBa(228, 77, 38, 0.15);
 }
