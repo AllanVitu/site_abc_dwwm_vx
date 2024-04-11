@@ -23,9 +23,9 @@ nav a{
     color: #FFFF;
 }
 body{
-    background-color: rgb(246, 209, 209);
+    background-color: rgb(34, 34, 57);
     font-family: "Century Gothic", Verdana, sans-serif;
-    color: rgb(39, 35, 35);
+    color: rgb(255, 246, 246);
     font-weight: bold;
 }
 strong{
@@ -39,7 +39,7 @@ img{
     height: 16px;
     width: 360px;
     padding: 15px;
-    background-color: rgb(71, 37, 73);
+    background-color: rgb(130, 39, 110);
 }
 mark{
     color: white;
@@ -58,19 +58,19 @@ div{
     bottom: 5px;
 }
 .anglais-html:hover{
-    border-top: 5px solid #293133;
+    border-top: 5px solid #1fc89d;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .menu-html:hover{
-    border-top: 5px solid #370028;
+    border-top: 5px solid #cc4eaa;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .github-html:hover{
-    border-top: 5px solid #622725;
+    border-top: 5px solid #8311c9;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .com-html:hover{
-    border-top: 5px solid #88421D;
+    border-top: 5px solid #cf1b1b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .intro-html:hover{
@@ -78,10 +78,10 @@ div{
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .video-html:hover{
-    border-top: 5px solid #DEB887;
+    border-top: 5px solid #e0e41e;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .fiche-html:hover{
-    border-top: 5px solid #785E2F;
+    border-top: 5px solid #15cf47;
     background-color: RGBa(228, 77, 38, 0.15);
 }
