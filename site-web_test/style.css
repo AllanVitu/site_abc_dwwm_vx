@@ -52,4 +52,20 @@ nav a{
     padding: 20px 30px;
     color: #f7ebeb;
 }
+.anglais-html{
+    background-color: rgb(28, 51, 151);
+    color: rgb(224, 210, 210);
+}
+.menu-html{
+    background-color: rgb(255, 171, 251);
+    color: rgb(224, 210, 210);
+}
+.github-html{
+    background-color: rgb(12, 12, 14);
+    color: rgb(224, 210, 210);
+}
+.com-html{
+    background-color: rgb(153, 39, 87);
+    color: rgb(224, 210, 210);
+}
 
