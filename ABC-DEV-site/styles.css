@@ -58,18 +58,30 @@ div{
     bottom: 5px;
 }
 .anglais-html{
-    background-color: rgb(28, 51, 151);
+    background-color: rgb(75, 25, 96);
     color: rgb(224, 210, 210);
 }
 .menu-html{
-    background-color: rgb(255, 171, 251);
+    background-color: rgb(131, 27, 27);
     color: rgb(224, 210, 210);
 }
 .github-html{
-    background-color: rgb(12, 12, 14);
+    background-color: rgb(143, 33, 84);
     color: rgb(224, 210, 210);
 }
 .com-html{
-    background-color: rgb(153, 39, 87);
+    background-color: rgb(53, 23, 129);
+    color: rgb(224, 210, 210);
+}
+.intro-html{
+    background-color: rgb(38, 125, 190);
+    color: rgb(224, 210, 210);
+}
+.video-html{
+    background-color: rgb(107, 165, 216);
+    color: rgb(224, 210, 210);
+}
+.fiche-html{
+    background-color: rgb(23, 129, 104);
     color: rgb(224, 210, 210);
 }
