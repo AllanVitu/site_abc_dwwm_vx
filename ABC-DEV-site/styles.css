@@ -62,19 +62,19 @@ div{
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .menu-html:hover{
-    border-top: 5px solid #cc4eaa;
+    border-top: 5px solid #6e55ea;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .github-html:hover{
-    border-top: 5px solid #8311c9;
+    border-top: 5px solid #9823dc;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .com-html:hover{
-    border-top: 5px solid #cf1b1b;
+    border-top: 5px solid #e12a2a;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .intro-html:hover{
-    border-top: 5px solid #048B9A;
+    border-top: 5px solid #04119a;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .video-html:hover{
@@ -89,4 +89,8 @@ div{
     width: 400px;
     height: 200px;
     margin: 0px auto;
+}
+.aut-html:hover{
+    border-top: 5px solid #cf7e1b;
+    background-color: RGBa(228, 77, 38, 0.15);
 }
