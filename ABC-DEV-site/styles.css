@@ -23,7 +23,7 @@ nav a{
     color: #FFFF;
 }
 body{
-    background-color: rgb(34, 34, 57);
+    background-color: rgb(57, 34, 55);
     font-family: "Century Gothic", Verdana, sans-serif;
     color: rgb(255, 246, 246);
     font-weight: bold;
@@ -39,7 +39,7 @@ img{
     height: 16px;
     width: 360px;
     padding: 15px;
-    background-color: rgb(149, 21, 160);
+    background-color: rgb(21, 97, 160);
 }
 mark{
     color: white;
