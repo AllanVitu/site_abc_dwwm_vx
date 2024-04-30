@@ -23,9 +23,9 @@ nav a{
     color: #FFFF;
 }
 body{
-    background-color: rgb(57, 34, 55);
+    background-color: rgb(128, 156, 172);
     font-family: "Century Gothic", Verdana, sans-serif;
-    color: rgb(255, 246, 246);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 strong{
@@ -39,11 +39,11 @@ img{
     height: 16px;
     width: 360px;
     padding: 15px;
-    background-color: rgb(21, 97, 160);
+    background-color: rgb(29, 75, 97);
 }
 mark{
     color: white;
-    background-color: rgb(5, 152, 157);
+    background-color: rgb(15, 150, 143);
 }
 div{
     width: 400px;

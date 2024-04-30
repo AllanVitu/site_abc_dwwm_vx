@@ -1,32 +1,93 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Cours d'anglais</title>
+        <title>Cours Java</title>
         <meta charset="utf8">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
     <div class="tp-html">
-        <h1><mark>Cours d'Anglais sur fiches</mark></h1>
-        <img src="london.gif" alt="c'est londre">
-        <p>A day in the life</p>
-        <p>The world of work</p>
-        <p><mark>1er EXRCICE :</mark></p>
-        <p>Name: My name is Marta Edberg.</p>
-        <p>Contry: I'm from Sweden.</p>
-        <p>Home town: I'm live in Solma</p>
-        <p>Relationship status: I'm married</p>
-        <p>Job: I'm/an a airport manager</p>
-        <p>Company: I work for Stockholm Airport</p>
-        <P>Travel: Yes she's travel for work</P>
-        <p><mark>2ème EXERCICES :</mark></p>
-        <ol type="1">
-            <li>Where : do you from?</li>
-            <li>Where : do you live?</li>
-            <li>Are you : married or single?</li>
-            <li>What : do you do?</li>
-            <li>Which company : do you work for?</li>
-            <li>Do you travel : for you work</li>
+        <h1><mark>Cours Java [Pseudo code et code]</mark></h1>
+        <h2><mark>Pseudo Code</mark></h2>
+        <p># Exercice 2.1 : Positif ou négatif ?</p>
+
+            <p>Écrire un algorithme qui demande à l’utilisateur de saisir 1 nombre entier et l’informe ensuite si le nombre est positif ou négatif.</p>
+            
+            <p>Pour information, le nombre 0 est considéré positif.</p>
+            
+            
+            <p>## Algorithme</p>
+            
+            <p>```</p>
+            <p>**VARIABLES**</p>
+            
+            <p>nombreEntier est un ENTIER</p>
+            <p>```</p>
+            
+            <p>```</p>
+            <p>**TRAITEMENT**</p>
+            
+            <p>ECRIRE "Saisissez un nombre entier</p>
+            
+            <p>LIRE nombreEntier;</p>
+            
+            
+            
+            <p>SI nombreEntier >= 0 /  SUPIRIEUR OU EGAL 0</p>
+                <p>ECRIRE "Ce nombre est positif"</p>
+            
+            <p>SINON ALORS</p>
+                <p>ECRIRE " Ce nombre est négatif"</p>
+            
+            <p>FIN SI</p>
+            <p>```</p>
+            
+            
+            <p>```</p>
+            <p>***Alternative***</p>
+            
+            <p>SI nombreEntier >= 0 /  SUPIRIEUR OU EGAL 0</p>
+                <p>ECRIRE "Ce nombre est négatif"</p>
+            
+            <p>SINON ALORS</p>
+                <p>ECRIRE " Ce nombre est positif"</p>
+            <p>```</p>
+
+
+
+
+
+            <h3><mark>Algorithme</mark></h3>
+            
+                <p>package positifOuNegatif;</p>
+
+<p>import java.util.Scanner;</p>
+
+<p>public class App {</p>
+
+	<p>public static void main(String[] args) {</p>
+
+		<p>sc= new Scanner(System.in);</p>
+		
+		<p>int nombreEntier;</p>
+		
+		<p>System.out.println("Saisissez un nombre entier");</p>
+		
+		<p>nombreEntier = sc.nextInt();</p>
+		
+		
+		<p>if(nombreEntier >= 0) {</p> 
+			<p>System.out.println("Ce nombre est positif");</p>
+		<p>}</p>
+
+		<p>else {</p>
+			<p>"Ce nombre est négatif");</p>
+		<p>}</p>
+			
+		<p>sc.close();</p>
+	<p>}</p>
+
+<p>}</p>
+
     </div>
-        </ol>
     </body>
