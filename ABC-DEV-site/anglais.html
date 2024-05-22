@@ -1,93 +1,209 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Cours Java</title>
-        <meta charset="utf8">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-    <div class="tp-html">
-        <h1><mark>Cours Java [Pseudo code et code]</mark></h1>
-        <h2><mark>Pseudo Code</mark></h2>
-        <p># Exercice 2.1 : Positif ou négatif ?</p>
+<html lang="fr">
+<head>
+  <title>Cours Java - Positif ou négatif ?</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="tp-html">
+    <h1>Cours Java</h1>
+    <h2>Pseudo-code</h2>
+    <p class="p1">Exercice 2.1 : Positif ou négatif ?</p>
+    <p>Écrire un algorithme qui demande à l'utilisateur de saisir 1 nombre entier et l'informe ensuite si le nombre est positif ou négatif.</p>
+    <p>Pour information, le nombre 0 est considéré positif.</p>
+    <h3>Algorithme</h3>
+    <pre>
+      // VARIABLES
+      nombreEntier: entier
 
-            <p>Écrire un algorithme qui demande à l’utilisateur de saisir 1 nombre entier et l’informe ensuite si le nombre est positif ou négatif.</p>
-            
-            <p>Pour information, le nombre 0 est considéré positif.</p>
-            
-            
-            <p>## Algorithme</p>
-            
-            <p>```</p>
-            <p>**VARIABLES**</p>
-            
-            <p>nombreEntier est un ENTIER</p>
-            <p>```</p>
-            
-            <p>```</p>
-            <p>**TRAITEMENT**</p>
-            
-            <p>ECRIRE "Saisissez un nombre entier</p>
-            
-            <p>LIRE nombreEntier;</p>
-            
-            
-            
-            <p>SI nombreEntier >= 0 /  SUPIRIEUR OU EGAL 0</p>
-                <p>ECRIRE "Ce nombre est positif"</p>
-            
-            <p>SINON ALORS</p>
-                <p>ECRIRE " Ce nombre est négatif"</p>
-            
-            <p>FIN SI</p>
-            <p>```</p>
-            
-            
-            <p>```</p>
-            <p>***Alternative***</p>
-            
-            <p>SI nombreEntier >= 0 /  SUPIRIEUR OU EGAL 0</p>
-                <p>ECRIRE "Ce nombre est négatif"</p>
-            
-            <p>SINON ALORS</p>
-                <p>ECRIRE " Ce nombre est positif"</p>
-            <p>```</p>
+      // TRAITEMENT
+      AFFICHER "Saisissez un nombre entier"
+      LIRE nombreEntier
 
+      SI nombreEntier >= 0
+        AFFICHER "Ce nombre est positif"
+      SINON
+        AFFICHER "Ce nombre est négatif"
+      FIN SI
+    </pre>
+    <h3>Code Java</h3>
+    <pre>
+      package PositifOuNegatif;
 
+      import java.util.Scanner;
 
+      public class App {
+        public static void main(String[] args) {
+          Scanner sc = new Scanner(System.in);
+          int nombreEntier;
 
+          System.out.println("Saisissez un nombre entier");
+          nombreEntier = sc.nextInt();
 
-            <h3><mark>Algorithme</mark></h3>
-            
-                <p>package positifOuNegatif;</p>
+          if (nombreEntier >= 0) {
+            System.out.println("Ce nombre est positif");
+          } else {
+            System.out.println("Ce nombre est négatif");
+          }
 
-<p>import java.util.Scanner;</p>
+          sc.close();
+        }
+      }
+    </pre>
+    <h4><mark>EXEMPLE BOUCLES</mark></h4>
+    <pre>
+        package laSomme;
 
-<p>public class App {</p>
+import java.util.Scanner;
 
-	<p>public static void main(String[] args) {</p>
+public class App {
 
-		<p>sc= new Scanner(System.in);</p>
+	public static void main(String[] args) {
 		
-		<p>int nombreEntier;</p>
+		Scanner sc = new Scanner(System.in);
 		
-		<p>System.out.println("Saisissez un nombre entier");</p>
-		
-		<p>nombreEntier = sc.nextInt();</p>
+		int nombreDeDepart;
+		int sommeDesEntiers = 0;
 		
 		
-		<p>if(nombreEntier >= 0) {</p> 
-			<p>System.out.println("Ce nombre est positif");</p>
-		<p>}</p>
+		System.out.println("Saisissez un nombre");
+		nombreDeDepart = sc.nextInt();
+		
+		for(int i = 0; i <= nombreDeDepart; i++)
+		{
+			sommeDesEntiers += i;
+		}
+		
+		System.out.println("La somme des nombres jusque " + nombreDeDepart + " est " + sommeDesEntiers);
+		
+		sc.close();
+	}
 
-		<p>else {</p>
-			<p>"Ce nombre est négatif");</p>
-		<p>}</p>
+}
+    </pre>
+    <h5><mark>Second Exemple Boucles</mark></h5>
+    <pre>
+        package plageDeGalets;
+
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		
+		int nombreUtilisateur;
+		
+		 
+		do {
+			System.out.println("Saisissez un nombre entre 10 et 20");
+			nombreUtilisateur = sc.nextInt();
 			
-		<p>sc.close();</p>
-	<p>}</p>
+		
+			if (nombreUtilisateur > 20) {
+			System.out.println("Plus petit !");
+			}
+		
+			else if (nombreUtilisateur < 10) {
+			System.out.println("Plus Grand !");
+			}
+			
+		}
+		while (nombreUtilisateur < 10 || nombreUtilisateur > 20);
+		
+		System.out.println("Yes, you did it ! ");
+			
+		
+		sc.close();
 
-<p>}</p>
+	}
 
-    </div>
-    </body>
+}
+    </pre>
+    <h6><mark>PSEUDO-CODE EXEMPLE BOUCLES</mark></h6>
+    <pre>
+        <mark># Exercice 3.2 : La bonne plage de galets</mark>
+
+Écrire un algorithme qui demande un nombre compris entre 10 et 20, jusqu’à ce que la réponse convienne.
+
+En cas de réponse supérieure à 20, on fera apparaître un message : « Plus petit ! », et inversement, « Plus grand ! » si le nombre est inférieur à 10.
+
+Lorsque la réponse convient, afficher le nombre saisi suivi de “Yes, you did it !”.
+
+
+```
+VARIABLES
+
+nombreUtilisateur
+
+
+```
+
+
+
+
+```
+TRAITEMENT
+
+FAIRE
+	ECRIRE "Saisissez un nombre entre 10 et 20"
+
+
+SI nombreUtilisateur est > 20
+	ECRIRE "Plus petit !"
+
+SI nombreUtilisateur est < 10
+	ECRIRE "Plus grand !
+	
+TANT QUE	
+	nombreUtilisateur < 20 || nombreUtilisateur > 10
+		ECRIRE "Yes, you did it ! ", nombreUtilisateur
+
+```
+
+
+
+
+
+
+
+
+
+<mark># Exercice 3.4 : La somme</mark>
+
+Écrire un algorithme qui demande un nombre de départ, et qui calcule et affiche la somme des entiers jusqu’à ce nombre.
+
+Par exemple, si l’utilisateur saisit le nombre 5, le programme doit afficher :
+
+La somme des nombres jusque 5 est: 15
+
+NB : on souhaite afficher uniquement le résultat, pas la décomposition du calcul.
+
+```
+VARIABLES
+
+nombreDeDepart est un ENTIER
+
+sommeDesEntiers est un ENTIER
+
+```
+
+
+```
+TRAITEMENT
+
+ECRIRE "Saisisssez un nombre de départ"
+	LIRE nombreDeDepart
+	
+	POUR i = 0 | i <= nombreDeDepart | i++
+		ALORS sommeDesEntiers += i
+		
+ECRIRE "La somme des nombres jusque " + nombreDeDepart + " est " + sommeDesEntiers
+
+FIN POUR
+    </pre>
+  </div>
+</body>
+</html>
