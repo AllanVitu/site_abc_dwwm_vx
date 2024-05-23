@@ -22,6 +22,43 @@ nav a{
     padding: 20px 30px;
     color: #FFFF;
 }
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    transition: all ease 1s;
+}
+
+#btnMenu {
+    display: none;
+}
+
+#btnMenu:hover {
+    background: #FFFFFF33;
+}
+
+
+@media screen and (max-width:600px) {
+    nav {
+        /*display: none;*/
+    }
+    .menu {
+        display: none;
+        flex-flow: column wrap;
+        position: fixed;
+        width: 100%;
+        background-color: #71779b
+    }
+    .menu.active {
+        display: flex;
+    }#btnMenu {
+        display: block;
+    }
+    
+
+}
+
+
 body{
     background-color: rgb(255, 255, 255);
     font-family: "Century Gothic", Verdana, sans-serif;
