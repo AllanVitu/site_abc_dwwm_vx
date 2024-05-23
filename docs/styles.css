@@ -20,7 +20,7 @@ nav a{
     display: inline-block;
     text-decoration: none;
     padding: 20px 30px;
-    color: #FFFF;
+    color: #a79c9c;
 }
 
 .menu {
@@ -60,9 +60,9 @@ nav a{
 
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(151, 133, 133);
     font-family: "Century Gothic", Verdana, sans-serif;
-    color: rgb(48, 45, 45);
+    color: rgb(122, 118, 118);
     font-weight: bold;
 }
 strong{
