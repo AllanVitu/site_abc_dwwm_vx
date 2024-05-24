@@ -20,7 +20,7 @@ nav a{
     display: inline-block;
     text-decoration: none;
     padding: 20px 30px;
-    color: #a79c9c;
+    color: #ffffff;
 }
 
 .menu {
@@ -76,11 +76,11 @@ img{
     height: 16px;
     width: 360px;
     padding: 15px;
-    background-color: rgb(49, 130, 168);
+    background-color: #A9AFD1;
 }
 mark{
     color: white;
-    background-color: rgb(63, 127, 170);
+    background-color: #457B9D;
 }
 div{
     width: 400px;
