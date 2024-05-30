@@ -1,7 +1,7 @@
 
 nav{
     width: 100%;
-    background-color: #666dac;
+    background-color: #0B6E4F;
 }
 nav ul{
     margin: 0px;
@@ -56,7 +56,7 @@ nav a{
 
 
 body{
-    background-color:#d7d7d7;
+    background-color:#ffffff;
     font-family: "Century Gothic", Verdana, sans-serif;
     color: #020402;
     font-weight: bold;
@@ -72,11 +72,11 @@ img{
     height: 16px;
     width: 360px;
     padding: 15px;
-    background-color: #A9AFD1;
+    background-color: #6BBF59;
 }
 mark{
     color: white;
-    background-color: #457B9D;
+    background-color: #08A045;
 }
 div{
     width: 400px;
