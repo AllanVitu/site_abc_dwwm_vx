@@ -34,7 +34,7 @@ nav a{
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:550px) {
     nav {
         /*display: none;*/
     }
@@ -50,8 +50,6 @@ nav a{
     }#btnMenu {
         display: block;
     }
-    
-
 }
 
 
