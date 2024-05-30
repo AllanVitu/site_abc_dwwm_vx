@@ -30,7 +30,7 @@ nav a{
 }
 
 #btnMenu:hover {
-    background: #FFFFFF33;
+    background: #75da4733;
 }
 
 
@@ -43,7 +43,7 @@ nav a{
         flex-flow: column wrap;
         position: fixed;
         width: 100%;
-        background-color: #638B55;
+        background-color: #666dac;
     }
     .menu.active {
         display: flex;
