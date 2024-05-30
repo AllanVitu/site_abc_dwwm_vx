@@ -126,4 +126,9 @@ div{
     background-color: RGBa(228, 77, 38, 0.15);
 }
 
+.exercices-java:hover{
+    border-top: 5px solid #A7E8BD;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+
 

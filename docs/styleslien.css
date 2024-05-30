@@ -1,0 +1,30 @@
+body{
+    background-color:#ffffff;
+    font-family: "Century Gothic", Verdana, sans-serif;
+    color: #020402;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+nav{
+    width: 100%;
+    background-color: #8B6220;
+}
+
+mark{
+    color: white;
+    background-color: #45050C;
+}
+
+.p9{
+    height: 32px;
+    width: 790px;
+    padding: 15px;
+    background-color: #D5AC4E;
+    font-size: 1.9rem;
+}
