@@ -89,31 +89,31 @@ div{
     bottom: 5px;
 }
 .anglais-html:hover{
-    border-top: 5px solid #A7E8BD;
+    border-top: 5px solid #e65d86;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .menu-html:hover{
-    border-top: 5px solid #A7E8BD;
+    border-top: 5px solid #e65d86;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .github-html:hover{
-    border-top: 5px solid #A7E8BD;
+    border-top: 5px solid #e65d86;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .com-html:hover{
-    border-top: 5px solid #A7E8BD;
+    border-top: 5px solid #e65d86;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .intro-html:hover{
-    border-top: 5px solid #A7E8BD;
+    border-top: 5px solid #e65d86;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .video-html:hover{
-    border-top: 5px solid #A7E8BD;
+    border-top: 5px solid #e65d86;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .fiche-html:hover{
-    border-top: 5px solid #A7E8BD;
+    border-top: 5px solid #e65d86;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .tp-html{
@@ -122,12 +122,12 @@ div{
     margin: 0px auto;
 }
 .aut-html:hover{
-    border-top: 5px solid #A7E8BD;
+    border-top: 5px solid #e65d86;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 
 .exercices-java:hover{
-    border-top: 5px solid #A7E8BD;
+    border-top: 5px solid #e65d86;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 
@@ -135,51 +135,51 @@ div{
     margin: 0 auto;
     width: 960px;
     height: 500px;
-    border: 3px solid #333;
+    border: 10px solid #17536b;
     background-image: url("imgs/premier.jpg");
 
     -webkit-animation-name: diapo1;
-    -webkit-animation-duration: 15s;
+    -webkit-animation-duration: 25s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: normal;
 
 
     -moz-animation-name: diapo1;
-    -moz-animation-duration: 15s;
+    -moz-animation-duration: 25s;
     -moz-animation-timing-function: linear;
     -moz-animation-iteration-count: infinite;
     -moz-animation-direction: normal;
 
 
     animation-name: diapo1;
-    animation-duration: 15s;
+    animation-duration: 25s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: normal;
 }
 
 @-webkit-keyframes diapo1{
-    0%{background-image: url("imgs/premier.jpg");}
-    33%{background-image: url(imgs/second.jpg);}
-    66%{background-image: url(imgs/troisieme.jpg);}
-    88%{background-image: url(imgs/cinq.jpg);}
+    10%{background-image: url("imgs/premier.jpg");}
+    23%{background-image: url(imgs/second.jpg);}
+    56%{background-image: url(imgs/troisieme.jpg);}
+    78%{background-image: url(imgs/cinq.jpg);}
     96%{background-image: url(imgs/quatre.jpg);}
 }
 
 @-mozkit-keyframes diapo1{
-    0%{background-image: url("imgs/premier.jpg");}
-    33%{background-image: url(imgs/second.jpg);}
-    66%{background-image: url(imgs/troisieme.jpg);}
-    88%{background-image: url(imgs/cinq.jpg);}
+    10%{background-image: url("imgs/premier.jpg");}
+    23%{background-image: url(imgs/second.jpg);}
+    56%{background-image: url(imgs/troisieme.jpg);}
+    78%{background-image: url(imgs/cinq.jpg);}
     96%{background-image: url(imgs/quatre.jpg);}
 }
 
 @keyframes diapo1{
-    0%{background-image: url("imgs/premier.jpg");}
-    33%{background-image: url(imgs/second.jpg);}
-    66%{background-image: url(imgs/troisieme.jpg);}
-    88%{background-image: url(imgs/cinq.jpg);}
+    10%{background-image: url("imgs/premier.jpg");}
+    23%{background-image: url(imgs/second.jpg);}
+    56%{background-image: url(imgs/troisieme.jpg);}
+    78%{background-image: url(imgs/cinq.jpg);}
     96%{background-image: url(imgs/quatre.jpg);}
 }
 

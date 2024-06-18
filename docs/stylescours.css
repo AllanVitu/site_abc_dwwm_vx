@@ -1,7 +1,7 @@
 body{
-    background-color:#ffffff;
+    background-color: white;
     font-family: "Century Gothic", Verdana, sans-serif;
-    color: #020402;
+    color: #111111;
     font-weight: bold;
     font-size: 1rem;
 }
@@ -15,4 +15,10 @@ mark{
     width: 190px;
     padding: 15px;
     background-color: #89DAFF;
+}
+
+#pre1{
+    background-color: rgb(116, 116, 115);
+    margin: auto;
+    right: 10;
 }
