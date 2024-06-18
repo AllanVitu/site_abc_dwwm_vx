@@ -1,7 +1,7 @@
 
 nav{
     width: 100%;
-    background-color: #0B6E4F;
+    background-color: #ca1d51;
 }
 nav ul{
     margin: 0px;
@@ -30,7 +30,7 @@ nav a{
 }
 
 #btnMenu:hover {
-    background: #75da4733;
+    background: #9931c233;
 }
 
 
@@ -43,7 +43,7 @@ nav a{
         flex-flow: column wrap;
         position: fixed;
         width: 100%;
-        background-color: #0B6E4F;
+        background-color: #9550f0;
     }
     .menu.active {
         display: flex;
@@ -54,7 +54,7 @@ nav a{
 
 
 body{
-    background-color:#ffffff;
+    background-image: url("imgs/niquel.jpg");
     font-family: "Century Gothic", Verdana, sans-serif;
     color: #020402;
     font-weight: bold;
@@ -70,11 +70,11 @@ img{
     height: 16px;
     width: 360px;
     padding: 15px;
-    background-color: #6BBF59;
+    background-color: #7859bf;
 }
 mark{
     color: white;
-    background-color: #08A045;
+    background-color: #d43477;
 }
 div{
     width: 400px;

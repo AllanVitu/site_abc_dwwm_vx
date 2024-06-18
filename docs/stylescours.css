@@ -3,7 +3,7 @@ body{
     font-family: "Century Gothic", Verdana, sans-serif;
     color: #020402;
     font-weight: bold;
-    font-size: 2.1rem;
+    font-size: 1rem;
 }
 
 mark{
@@ -11,8 +11,8 @@ mark{
     background-color: #8F95D3;
 }
 .h10{
-    height: 80px;
-    width: 490px;
+    height: 50px;
+    width: 190px;
     padding: 15px;
     background-color: #89DAFF;
 }
