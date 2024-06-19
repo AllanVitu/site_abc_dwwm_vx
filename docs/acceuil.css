@@ -1,0 +1,9 @@
+body{
+    background-image: url("imgs/whitsend.png");
+    font-family: "Century Gothic", Verdana, sans-serif;
+    background-position: top;
+    background-position: left;
+    background-position: right;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
