@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-image: url("imgs/verdatre.jpg");
     font-family: "Century Gothic", Verdana, sans-serif;
     color: #111111;
     font-weight: bold;
@@ -17,8 +17,23 @@ mark{
     background-color: #89DAFF;
 }
 
-#pre1{
-    background-color: rgb(116, 116, 115);
-    margin: auto;
-    right: 10;
+#pre2{
+    font-size: 17px;
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+#pre3{
+    font-size: 17px;
+    background-color: rgb(198, 135, 235);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+#pre5{
+    font-size: 17px;
+    background-color: rgb(235, 158, 135);
+    border-radius: 10px;
+    padding: 50px;
 }
