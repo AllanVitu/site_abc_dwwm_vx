@@ -89,31 +89,31 @@ div{
     bottom: 5px;
 }
 .anglais-html:hover{
-    border-top: 5px solid #17536b;
+    border-top: 5px solid #64176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .menu-html:hover{
-    border-top: 5px solid #17536b;
+    border-top: 5px solid #64176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .github-html:hover{
-    border-top: 5px solid #17536b;
+    border-top: 5px solid #64176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .com-html:hover{
-    border-top: 5px solid #17536b;
+    border-top: 5px solid #64176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .intro-html:hover{
-    border-top: 5px solid #17536b;
+    border-top: 5px solid #64176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .video-html:hover{
-    border-top: 5px solid #17536b;
+    border-top: 5px solid #64176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .fiche-html:hover{
-    border-top: 5px solid #17536b;
+    border-top: 5px solid #64176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .tp-html{
@@ -122,12 +122,12 @@ div{
     margin: 0px auto;
 }
 .aut-html:hover{
-    border-top: 5px solid #17536b;
+    border-top: 5px solid #64176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 
 .exercices-java:hover{
-    border-top: 5px solid #17536b;
+    border-top: 5px solid #64176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 
@@ -135,7 +135,7 @@ div{
     margin: 0 auto;
     width: 960px;
     height: 500px;
-    border: 10px solid #17536b;
+    border: 10px solid #6b174b;
     background-image: url("imgs/premier.jpg");
 
     -webkit-animation-name: diapo1;
