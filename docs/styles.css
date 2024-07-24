@@ -88,7 +88,7 @@ div{
     left: 70px;
     bottom: 5px;
 }
-.anglais-html:hover{
+.coursJava-html:hover{
     border-top: 5px solid #64176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
@@ -132,6 +132,11 @@ div{
 }
 
 .bdd-html:hover{
+    border-top: 5px solid #64176b;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.objet-java-html:hover{
     border-top: 5px solid #64176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }

@@ -5,7 +5,6 @@ body{
     font-weight: bold;
     font-size: 1rem;
 }
-
 img{
     width: 750px;
     height: 490px;        
@@ -64,18 +63,4 @@ nav a{
 
 mark{
     background-color: rgb(0, 204, 255);
-}
-
-.DDL-FC:hover{
-    border-top: 5px solid #24d5db;
-    background-color: RGBa(228, 77, 38, 0.15);
-}
-
-.tp-employer:hover{
-    border-top: 5px solid #24d5db;
-    background-color: RGBa(228, 77, 38, 0.15);
-}
-.DML_FC:hover{
-    border-top: 5px solid #24d5db;
-    background-color: RGBa(228, 77, 38, 0.15);
 }
