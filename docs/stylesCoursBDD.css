@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(240, 235, 235);
+    font-family: "Century Gothic", Verdana, sans-serif;
+    color: #111111;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+img{
+    width: 350px;
+    height: 190px;        
+}
+nav{
+    width: 100%;
+    background-color: #1d62ca;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    transition: all ease 1s;
+}
+#btnMenu {
+    display: none;
+}
+
+#btnMenu:hover {
+    background: #9931c233;
+}
+
+
+@media screen and (max-width:550px) {
+    nav {
+        /*display: none;*/
+    }
+    .menu {
+        display: none;
+        flex-flow: column wrap;
+        position: fixed;
+        width: 100%;
+        background-color: #9550f0;
+    }
+    .menu.active {
+        display: flex;
+    }#btnMenu {
+        display: block;
+    }
+}
+
+mark{
+    background-color: aqua;
+}
+
+.DDL-FC:hover{
+    border-top: 5px solid #24d5db;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.tp-employer:hover{
+    border-top: 5px solid #24d5db;
+    background-color: RGBa(228, 77, 38, 0.15);
+}

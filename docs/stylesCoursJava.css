@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(240, 235, 235);
+    font-family: "Century Gothic", Verdana, sans-serif;
+    color: #111111;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+mark{
+    color: white;
+    background-color: #8F95D3;
+}
