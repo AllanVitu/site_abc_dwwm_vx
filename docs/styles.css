@@ -24,7 +24,12 @@ nav a{
     flex-flow: row wrap;
     transition: all ease 1s;
 }
-
+.textDiapo{
+    position: absolute;
+    bottom: 25%;
+    right: 36%;
+    margin: auto;
+}
 #btnMenu {
     display: none;
 }
@@ -140,66 +145,18 @@ div{
     border-top: 5px solid #64176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
-
-.diaporama{
-    margin: 0 auto;
-    width: 960px;
-    height: 500px;
-    border: 10px solid #6b174b;
-    background-image: url("imgs/premier.jpg");
-
-    -webkit-animation-name: diapo1;
-    -webkit-animation-duration: 25s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: normal;
-
-
-    -moz-animation-name: diapo1;
-    -moz-animation-duration: 25s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-direction: normal;
-
-
-    animation-name: diapo1;
-    animation-duration: 25s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-}
-
-@-webkit-keyframes diapo1{
-    10%{background-image: url("imgs/premier.jpg");}
-    23%{background-image: url(imgs/second.jpg);}
-    56%{background-image: url(imgs/troisieme.jpg);}
-    78%{background-image: url(imgs/cinq.jpg);}
-    96%{background-image: url(imgs/quatre.jpg);}
-}
-
-@-mozkit-keyframes diapo1{
-    10%{background-image: url("imgs/premier.jpg");}
-    23%{background-image: url(imgs/second.jpg);}
-    56%{background-image: url(imgs/troisieme.jpg);}
-    78%{background-image: url(imgs/cinq.jpg);}
-    96%{background-image: url(imgs/quatre.jpg);}
-}
-
-@keyframes diapo1{
-    10%{background-image: url("imgs/premier.jpg");}
-    23%{background-image: url(imgs/second.jpg);}
-    56%{background-image: url(imgs/troisieme.jpg);}
-    78%{background-image: url(imgs/cinq.jpg);}
-    96%{background-image: url(imgs/quatre.jpg);}
-}
-
-.textDiapo{
+.img-center{
+    display: block;
     margin: auto;
     left: auto;
     right: auto;
     top: auto;
     bottom:auto;
 }
+
+
+
+
 
 
 
