@@ -24,11 +24,6 @@ nav a{
     flex-flow: row wrap;
     transition: all ease 1s;
 }
-.textDiapo{
-    position: absolute;
-    bottom: 15%;
-    right: 3%;
-}
 #btnMenu {
     display: none;
 }
