@@ -58,6 +58,7 @@ body{
     color: #020402;
     font-weight: bold;
     text-align: center;
+    font-size: 1rem;
 }
 strong{
     border: 2px solid rgb(234, 231, 236);

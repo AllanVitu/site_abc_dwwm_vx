@@ -1,9 +1,9 @@
 body{
     background-color: rgb(240, 235, 235);
-    font-family: "Century Gothic", Verdana, sans-serif;
+    font-family: "Arial", Verdana, sans-serif;
     color: #111111;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 img{
@@ -26,7 +26,7 @@ nav li{
 nav a{
     display: inline-block;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 40px 60px;
     color: #ffffff;
 }
 
