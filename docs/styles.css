@@ -1,7 +1,7 @@
 
 nav{
     width: 100%;
-    background-color: #24bfca;
+    background-color: #444346;
 }
 nav ul{
     margin: 0px;
@@ -90,19 +90,19 @@ div{
     bottom: 5px;
 }
 .coursJava-html:hover{
-    border-top: 5px solid #64176b;
+    border-top: 5px solid #176b2b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .menu-html:hover{
-    border-top: 5px solid #64176b;
+    border-top: 5px solid #176b61;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .github-html:hover{
-    border-top: 5px solid #64176b;
+    border-top: 5px solid #173a6b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .com-html:hover{
-    border-top: 5px solid #64176b;
+    border-top: 5px solid #2d176b;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .intro-html:hover{
@@ -110,11 +110,11 @@ div{
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .video-html:hover{
-    border-top: 5px solid #64176b;
+    border-top: 5px solid #6b174e;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .fiche-html:hover{
-    border-top: 5px solid #64176b;
+    border-top: 5px solid #6b5017;
     background-color: RGBa(228, 77, 38, 0.15);
 }
 .tp-html{
