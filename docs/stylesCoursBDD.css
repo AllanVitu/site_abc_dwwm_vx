@@ -26,7 +26,7 @@ nav li{
 nav a{
     display: inline-block;
     text-decoration: none;
-    padding: 40px 60px;
+    padding: 20px 30px;
     color: #ffffff;
 }
 
@@ -44,7 +44,7 @@ nav a{
 }
 
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:100px) {
     nav {
         /*display: none;*/
     }
